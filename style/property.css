@@ -34,12 +34,15 @@
  
 }
     
-    
-/* ----------------------------------------------------- */
+ /* background */
+ .bg{
+    background-color: #20ba46;
+ }
+/* d-rtl */
 .dir{
     direction: ltr;
 }
-/* ================================================ */
+/* ! add media */
 
 @media screen and (min-width:768px) {
     .d-none{
@@ -50,6 +53,9 @@
     }
     .r-zero2{
         right: 117px;
+    }
+    .right-content{
+        padding-top: 67px;
     }
     
 }

@@ -68,7 +68,7 @@ body {
 
   border-radius: 4px;
 }
-/* todo در این قسمت نو بار قرار  میگیرد و همچنان برای ویرایش  */
+/* ! در این قسمت نو بار قرار  میگیرد و همچنان برای ویرایش  */
 @media screen and (max-width: 767px) {
   .conten-navbar {
     display: none;
@@ -82,6 +82,7 @@ body {
   .r-zero{
     right: 0px;
   }
+
 }
 /* !  از این قسمت برای عکس های و متن های هیدر استفاده میشود  */
 .left-content {
@@ -97,7 +98,7 @@ body {
 .right-content {
   /* background-color: lightblue; */
   height: 100%;
-  padding-top: 67px;
+ margin: 12px 0;
 }
 .content1 {
   padding-top: d;
