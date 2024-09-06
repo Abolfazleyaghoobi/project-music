@@ -77,10 +77,13 @@ body {
   .content1 h2,.content2 h2 {
     font-size: 29px;
     text-align: center;
-  
   }
+ 
   .r-zero{
     right: 0px;
+  }
+  .content1{
+    padding-top: 45px;
   }
 
 }
@@ -100,6 +103,9 @@ body {
   height: 100%;
  margin: 12px 0;
 }
+
+
+
 .content1 {
   padding-top: d;
   /* background-color: red; */
