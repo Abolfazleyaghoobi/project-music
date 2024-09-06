@@ -1,0 +1,133 @@
+body {
+  background-color: #2f2d2d;
+}
+
+.colornav,
+.navBarLeft,
+.navBarRight,
+.c-link-music {
+  height: 3rem;
+}
+.colornav {
+  background-color: #2f2d2d;
+}
+/* از این قسمت به بعد برای نوبار سمت راست  هست */
+.c-link-music {
+  align-items: center;
+  justify-content: space-between;
+}
+.newMusic,
+.oldMusic {
+  margin: 0px;
+  padding: 6px;
+  box-shadow: 0px 2px 7px 0px rgba(246, 228, 228, 0.25);
+  border-radius: 8px;
+}
+
+.newMusic a,
+.oldMusic a {
+  text-decoration: none;
+  font-family: yekan;
+
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 100;
+  cursor: pointer;
+}
+.newMusic:hover,
+.oldMusic:hover {
+  box-shadow: 0px 2px 32px 0px rgba(204, 199, 199, 0.909);
+  transform: scale(1.01);
+  transition: all 0.3s;
+}
+.navBarRight {
+  padding: 0 1rem;
+}
+/* از این قسمت به بعد هم برای نوبار سمت چپ خواهد بود */
+.navBarLeft {
+  /* border: 2px solid blue; */
+  padding-top: 15px;
+}
+.nameHeader,
+.about {
+  color: white;
+}
+.nameHeader {
+  font-family: iran-nastaliq;
+}
+.about a {
+  text-decoration: none;
+  font-family: yekan;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+}
+.about a:hover {
+  background-color: #9d6969;
+  transition: all 0.6s;
+
+  border-radius: 4px;
+}
+/* todo در این قسمت نو بار قرار  میگیرد و همچنان برای ویرایش  */
+@media screen and (max-width: 767px) {
+  .conten-navbar {
+    display: none;
+  }
+  
+  .content1 h2,.content2 h2 {
+    font-size: 29px;
+    text-align: center;
+  
+  }
+  .r-zero{
+    right: 0px;
+  }
+}
+/* !  از این قسمت برای عکس های و متن های هیدر استفاده میشود  */
+.left-content {
+  width: 100%;
+  height: 460px;
+}
+.im {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ! این قسمت برای متن های شعر هست */
+.right-content {
+  /* background-color: lightblue; */
+  height: 100%;
+  padding-top: 67px;
+}
+.content1 {
+  padding-top: d;
+  /* background-color: red; */
+  height: 77px;
+}
+.content1 h2 {
+  font-family: iran-nastaliq;
+
+  color: #646464;
+  position: relative;
+  top: -12px;
+ 
+  text-shadow: 0px 14px 4px rgba(30, 30, 30, 0.25);
+  word-spacing: 2px;
+}
+.dard {
+  color: black;
+}
+.content2 h2 {
+  font-family: iran-nastaliq;
+
+  color: #646464;
+  position: relative;
+  top: 7px;
+
+  text-shadow: 0px 14px 4px rgba(30, 30, 30, 0.25);
+  margin-top: 16px;
+  word-spacing: 4px;
+}
+.dard1 {
+  color: red;
+}

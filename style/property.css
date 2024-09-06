@@ -1,0 +1,88 @@
+/* display flex */
+.d-f{
+    display: flex;
+}
+.f-space{
+    justify-content: space-between;
+}
+.align_items{
+    align-items: center;
+}
+.space{
+    justify-content: space-between;
+
+}
+/* colors */
+.border{
+    border: 1px solid red;
+}
+ .colorH{
+    background-color: #d3d3d3; 
+}
+/* height  */
+/* .h-header-content{
+    height: 413px;
+} */
+.tl{
+    text-align: left;
+}
+/* media screen */
+@media screen and (min-width:992px) {
+.col-lg-m1{
+    margin: 0 3px;
+    }
+ 
+}
+    
+    
+/* ----------------------------------------------------- */
+.dir{
+    direction: ltr;
+}
+/* ================================================ */
+
+@media screen and (min-width:768px) {
+    .d-none{
+        font-size: 19px;
+    }
+    .r-zero1{
+        right: 62px;
+    }
+    .r-zero2{
+        right: 117px;
+    }
+    
+}
+@media screen and (min-width:769px) {
+ 
+    .d-none{
+        font-size:19px;
+    }
+}
+
+@media screen  and (min-width:909px){
+    .font-col-1{
+        font-size: 35px;
+        
+    }
+}
+
+@media screen and (min-width:977px) {
+    .font-col-md{
+        font-size: 38px;
+    }
+    
+}
+
+@media screen and (min-width:995px) {
+    .font-con-lg{
+        font-size: 50px;
+    }
+    
+}
+@media screen and (min-width:1121px) {
+    .font-con{
+        font-size: 61px;
+    }
+    
+}
