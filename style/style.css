@@ -1,3 +1,4 @@
+@import url(http://awebfont.ir/css?id=1773&mode=wletso);
 body {
   background-color: #2f2d2d;
 }
@@ -53,7 +54,7 @@ body {
   color: white;
 }
 .nameHeader {
-  font-family: iran-nastaliq;
+  font-family: Nastaligh ;
 }
 .about a {
   text-decoration: none;
@@ -112,7 +113,7 @@ body {
   height: 77px;
 }
 .content1 h2 {
-  font-family: iran-nastaliq;
+  font-family: Nastaligh ;
 
   color: #646464;
   position: relative;
@@ -125,7 +126,7 @@ body {
   color: black;
 }
 .content2 h2 {
-  font-family: iran-nastaliq;
+  font-family: Nastaligh ;
 
   color: #646464;
   position: relative;
