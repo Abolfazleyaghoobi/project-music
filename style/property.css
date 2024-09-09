@@ -57,6 +57,9 @@
     .right-content{
         padding-top: 67px;
     }
+    .navMobile{
+        display: none;
+    }
     
 }
 @media screen and (min-width:769px) {
