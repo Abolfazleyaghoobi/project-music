@@ -12,7 +12,7 @@ body {
 .colornav {
   background-color: #2f2d2d;
 }
-/* این قسمت استایل برای نوبار گوشی میباشد */
+/*! این قسمت استایل برای نوبار گوشی میباشد */
 
 .sidenav {
   height: 100%;
@@ -23,15 +23,15 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.2s;
   padding-top: 60px;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+.sidenav .link {
+ 
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  
+
   display: block;
   transition: 0.3s;
 }
@@ -52,7 +52,23 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/* از این قسمت به بعد برای نوبار سمت راست  هست */
+.NewMusic{
+  background-color: #717171;
+  width: 70%;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius:5px ;
+  box-shadow: 0 0 10px #eaff0570;
+  
+}
+.NewMusic>a{
+  color: rgb(190, 211, 251);
+  text-decoration: none;
+  font-family: yekan;
+}
+/** از این قسمت به بعد برای نوبار سمت راست  هست */
 .c-link-music {
   align-items: center;
   justify-content: space-between;
@@ -110,7 +126,7 @@ body {
   border-radius: 4px;
 }
 /* ! در این قسمت نو بار قرار  میگیرد و همچنان برای ویرایش  */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .conten-navbar {
     display: none;
   }
