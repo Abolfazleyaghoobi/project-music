@@ -21,6 +21,29 @@ function animateText() {
 
 // اجرای انیمیشن به صورت دوره‌ای
 setInterval(animateText, delay);
+
+
+const text1 = "Nafez.com";
+const container1 = document.getElementById("textAnimee");
+let index1 = 0;
+let delay1 = 600; // تأخیر بین هر حرف به میلی‌ثانیه
+
+function animateText1() {
+    if (index1 < text1.length) {
+        const span1 = document.createElement("span");
+        span1.textContent = text1[index1];
+        container1.appendChild(span1);
+        
+        index1++;
+    } else {
+        // وقتی به انتهای متن رسیدیم، دوباره از ابتدا شروع می‌کنیم
+        index1 = 0;
+        container1.textContent = ""; // محتویات قبلی را پاک می‌کنیم
+    }
+}
+
+// اجرای انیمیشن به صورت دوره‌ای
+setInterval(animateText1, delay);
 // --------------------------------------------------------------------------------------
 
 

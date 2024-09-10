@@ -18,12 +18,12 @@ body {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  transition: 0.2s;
+  transition: 0.1s;
   padding-top: 60px;
 }
 
@@ -52,7 +52,7 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.NewMusic{
+.NewMusic,.OldMusic{
   background-color: #717171;
   width: 70%;
   height: 30px;
@@ -61,9 +61,10 @@ body {
   text-align: center;
   border-radius:5px ;
   box-shadow: 0 0 10px #eaff0570;
+  margin-bottom: 8px;
   
 }
-.NewMusic>a{
+.NewMusic>a , .OldMusic>a{
   color: rgb(190, 211, 251);
   text-decoration: none;
   font-family: yekan;
