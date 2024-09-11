@@ -20,7 +20,7 @@ body {
   position: fixed;
   z-index: 999;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.1s;
@@ -43,7 +43,7 @@ body {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  left: 0px;
   font-size: 36px;
   margin-left: 50px;
 }
