@@ -30,7 +30,7 @@ body {
 .sidenav .link {
  
   text-decoration: none;
-  
+  color: #ada9a9;
 
   display: block;
   transition: 0.3s;
